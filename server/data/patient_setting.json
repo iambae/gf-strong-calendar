@@ -1,0 +1,12 @@
+[
+    {
+        "patient_setting_ID": 1,
+        "setting_type": "In Patient",
+        "archived": 0
+    },
+    {
+        "patient_setting_ID": 2,
+        "setting_type": "Out Patient",
+        "archived": 0
+    }
+]

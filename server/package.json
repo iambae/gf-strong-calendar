@@ -1,0 +1,51 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "bcrypt-nodejs": "0.0.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^6.2.0",
+    "express-session": "^1.15.6",
+    "handlebars": "^4.1.1",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.5",
+    "node-uuid": "^1.4.8",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.10",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "rand-token": "^0.4.0",
+    "sequelize": "^4.43.0",
+    "sequelize-cli": "^5.4.0",
+    "uuid": "^3.3.2",
+    "webpack": "^4.29.5",
+    "webpack-dev-server": "^3.2.0"
+  },
+  "main": "app.js",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.1",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "express-jwt-authz": "^1.0.0",
+    "gulp": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-nodemon": "^2.4.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

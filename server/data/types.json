@@ -1,0 +1,51 @@
+[
+    {
+        "type_id": 1,
+        "type_code": "PT",
+        "description": "Physiotherapy",
+        "category": null,
+        "color": "#39b540"
+    },
+    {
+        "type_id": 2,
+        "type_code": "OT",
+        "description": "Occupational Therapy",
+        "category": null,
+        "color":"#a50e34"
+    },
+    {
+        "type_id": 3,
+        "type_code": "Speech",
+        "description": "Speech Therapy",
+        "category": null,
+        "color":"#ed800b"
+    },
+    {
+        "type_id": 4,
+        "type_code": "PT RA",
+        "description": "Physiotherapy Rehab Assistant",
+        "category": null,
+        "color":"#8f25bc"
+    },
+    {
+        "type_id": 5,
+        "type_code": "Rec",
+        "description": "Recreational therapist",
+        "category": null,
+        "color":"#d63e9b"
+    },
+    {
+        "type_id": 6,
+        "type_code": "Psych",
+        "description": "Psychologist",
+        "category": null,
+        "color":"#3835c6"
+    },
+    {
+        "type_id": 7,
+        "type_code": "SW",
+        "description": "Social Work",
+        "category": null,
+        "color":"#f4d142"
+    }
+]

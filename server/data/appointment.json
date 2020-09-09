@@ -1,0 +1,38 @@
+[
+    {
+        "appointment_id": 1,
+        "location_id": 1,
+        "type_id": 1,
+        "start_time": "2019-03-17 16:00:00",
+        "end_time": "2019-03-17 17:00:00",
+        "notes": "Sample appointment 2",
+        "cancelled": 0,
+        "archived": 0,
+        "createdAt": "2019-03-29 02:20:14",
+        "updatedAt": "2019-03-29 02:20:14"
+    },
+    {
+        "appointment_id": 2,
+        "location_id": 2,
+        "type_id": 2,
+        "start_time": "2019-03-29 18:00:00",
+        "end_time": "2019-03-29 18:15:00",
+        "notes": "Short appointment",
+        "cancelled": 0,
+        "archived": 0,
+        "createdAt": "2019-03-29 02:24:39",
+        "updatedAt": "2019-03-29 02:24:39"
+    },
+    {
+        "appointment_id": 3,
+        "location_id": 3,
+        "type_id": 3,
+        "start_time": "2019-03-29 18:00:00",
+        "end_time": "2019-03-29 18:30:00",
+        "notes": "Long appointment",
+        "cancelled": 0,
+        "archived": 0,
+        "createdAt": "2019-03-29 02:25:59",
+        "updatedAt": "2019-03-29 02:25:59"
+    }
+]

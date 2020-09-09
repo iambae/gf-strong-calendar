@@ -1,0 +1,28 @@
+.react-datepicker-wrapper {
+	margin-top: 17px !important;
+}
+
+.select {
+	font-weight: lighter;
+}
+
+.css-10nd86i.select.select-field {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+@media screen and (max-width: 500px) {
+	div.select-field.select,
+	div.select-field.select .css-1hwfws3 {
+		max-width: 100%;
+		width: 200px;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: left;
+		align-items: left;
+		align-content: left;
+		margin: 0.2rem 1rem 0.2rem 1.2rem;
+		flex-grow: 1;
+		position: relative;
+	}
+}

@@ -1,0 +1,113 @@
+ul.header li {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	color: #fff;
+	font-weight: normal;
+	font-family: "Roboto", "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+	font-size: 1.2em;
+	text-decoration: none;
+	padding: 20px;
+}
+
+ul.header {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 0;
+}
+
+.navbar {
+	border-radius: 10px;
+	margin-bottom: 25px;
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.filter-container {
+	margin: 0 2px 0 2px;
+}
+
+/* ----------- iPhone  ----------- */
+/* Portrait & Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+	.filterbar.navbar.navbar-expand-lg.navbar-light.bg-light,
+	.filterbar.navbar.navbar-expand-lg.navbar-light.bg-light > *,
+	.filterbar.navbar.navbar-expand-lg.navbar-light.bg-light div.select-field {
+		width: 100%;
+		margin: 5px;
+	}
+
+	.filterbar.navbar.navbar-expand-lg.navbar-light.bg-light
+		button.btn.btn-outline-dark {
+		padding: 0 !important;
+	}
+
+	.filterbar.navbar.navbar-expand-lg.navbar-light.bg-light div.select-field {
+		padding-right: 15px;
+	}
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+	.filterbar.navbar.navbar-expand-lg.navbar-light.bg-light {
+		width: 100%;
+	}
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+	.filterbar.navbar.navbar-expand-lg.navbar-light.bg-light {
+		width: 100%;
+	}
+}
+
+.filter-btn {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.dashboard-title {
+	font-family: "Roboto", "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.dashboard {
+	font-family: "Roboto", "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.print-btn {
+	display: inline-block;
+	font-weight: 600;
+	text-align: right !important;
+	align-self: right !important;
+	margin: 0 !important;
+	justify-content: right;
+}
+
+.print-btn-container {
+	margin: 10px 0 10px 10px;
+	align-items: right !important;
+	justify-content: right;
+	align-content: right;
+	text-align: right !important;
+}
+
+/* ----------- iPhone  ----------- */
+/* Portrait & Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+	.print-btn-container {
+		text-align: left !important;
+	}
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+	.print-btn-container {
+		text-align: left !important;
+	}
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+	.print-btn-container {
+		text-align: left !important;
+	}
+}

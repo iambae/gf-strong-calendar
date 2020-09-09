@@ -1,0 +1,35 @@
+.modal-content {
+	overflow: visible;
+	border-radius: 10px;
+}
+
+.modal-title {
+	display: inline-block;
+	padding-top: 0.3125rem;
+	padding-bottom: 0.3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Roboto", "Helvetica Neue", "Arial", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0;
+}
+
+#center-form-group {
+	justify-content: center;
+	text-align: center;
+	align-self: center;
+	display: inline-block;
+}
+
+div.form-group {
+	padding: 5px;
+}
+
+#date-bottom > * {
+	padding: 10px;
+}

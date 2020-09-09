@@ -1,0 +1,84 @@
+.module {
+	margin: 1em;
+	padding: 15px;
+	display: inline-flex;
+	align-items: center;
+	color: black;
+	background-color: rgba(204, 204, 204, 0.5);
+	text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+	.module {
+		margin: 1em;
+		padding: 10px;
+		width: 35vw;
+		display: inline-flex;
+		color: black;
+		background-color: rgba(204, 204, 204, 0.5);
+		text-align: center;
+	}
+
+	div.mr-auto.navbar-nav {
+		align-items: flex-start;
+		justify-content: center;
+		flex-flow: wrap;
+		flex-basis: 100%;
+		flex-grow: 1;
+	}
+}
+
+@media screen and (min-width: 1160px) {
+	div.mr-auto.navbar-nav {
+		align-items: flex-start;
+		justify-content: center;
+		flex-flow: wrap;
+		flex-basis: 100%;
+		flex-grow: 1;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	div.mr-auto.navbar-nav {
+		align-items: flex-start;
+		justify-content: center;
+		flex-flow: wrap;
+		flex-basis: 100%;
+		flex-grow: 1;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.module > * {
+		font-size: 3vw;
+	}
+}
+
+.module:hover {
+	background-color: rgba(204, 204, 204, 0.3);
+}
+
+.nav-link {
+	padding-left: 10px !important;
+}
+
+.search-container > * {
+	display: block;
+	margin: 7px 0;
+}
+
+#basic-navbar-nav {
+	flex-flow: wrap !important;
+}
+
+.navbar {
+	-webkit-font-smoothing: antialiased;
+	font-family: "Roboto", "Helvetica Neue", "Arial", sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1.5;
+	flex-grow: 1;
+	flex-flow: wrap !important;
+	text-transform: uppercase;
+	text-decoration: none;
+}

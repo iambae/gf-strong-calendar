@@ -1,0 +1,9 @@
+.btn {
+	margin-top: 15px;
+}
+
+.modal-content,
+.modal-body {
+	align-items: center;
+	text-align: center;
+}

@@ -1,0 +1,205 @@
+.image {
+	width: 100%;
+	overflow: hidden;
+	height: 260px;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+img.card-img-top {
+	border-radius: 10% !important;
+	margin-bottom: 20px;
+}
+
+.card-img-top {
+	max-width: 330px;
+	max-height: 330px;
+	padding: 20px;
+	object-fit: contain;
+}
+
+.user-role {
+	font-size: 20px !important;
+	text-align: center;
+	margin: 0%;
+}
+
+.user-role.card-title {
+	font-size: 18px;
+	font-style: italic;
+	font-weight: lighter;
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 3px;
+}
+
+#welcome-user {
+	font-family: "Bad Script";
+	font-size: 3vh;
+	font-style: oblique;
+	margin-top: 20px;
+}
+
+.input-group-append {
+	margin-bottom: 0px !important;
+	display: inline-block;
+}
+
+.input-group-append > * {
+	display: block;
+	margin: 15px 0;
+}
+
+.label-role-number {
+	margin-bottom: 0px !important;
+	display: inline-block;
+	font-size: 17px;
+	padding-right: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.user-profile {
+	text-align: left;
+	font-family: "Roboto", "Helvetica Neue", "Arial", sans-serif;
+	margin-bottom: 0.25em;
+	font-weight: lighter;
+	box-shadow: 0px 10px 50px #555;
+}
+
+.card {
+	border: 0 !important;
+}
+
+.user-card > * {
+	color: #363636 !important;
+}
+
+.user-card {
+	font-family: "Roboto", "Helvetica Neue", "Arial", sans-serif;
+	border: 0 !important;
+	display: inline-block;
+	align-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	font-weight: 300;
+	width: auto;
+	display: flex;
+	padding: 10px;
+}
+
+.user-card-container {
+	border: 0 !important;
+	display: inline-block;
+}
+
+.card-title {
+	font-weight: bold;
+	margin: 0;
+	font-size: 25px;
+}
+
+.card-body {
+	padding: 0px;
+}
+
+.card-body.user-role {
+	padding-top: 10px;
+}
+
+.input-group {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.user-name {
+	font-size: 160%;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0%;
+}
+
+.user {
+	font-size: small;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.form-control {
+	font-size: 15px;
+	margin-top: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	-webkit-font-smoothing: antialiased;
+}
+
+.form-label {
+	font-family: "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	color: #5a5a5a;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.input-section {
+	margin: 20px !important;
+	text-align: left;
+	width: 60%;
+}
+
+.content-row > * {
+	display: block;
+	margin: 5px 0;
+}
+
+.detail-card-footer {
+	margin-top: 30px;
+}
+
+div.columns.right-column {
+	display: flex;
+}
+
+div.columns {
+	align-content: center;
+
+	vertical-align: middle;
+	text-align: center;
+	flex-grow: 1;
+	display: inline-block;
+	align-items: stretch;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	div.columns {
+		min-width: 100%;
+	}
+	.card-body {
+		padding: 0px;
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	div.columns {
+		min-width: 100%;
+	}
+	.card-body {
+		padding: 0px;
+	}
+}
+
+div.content-row {
+	justify-content: center;
+	flex-grow: 1;
+	flex-flow: row wrap;
+}
+
+.main-content {
+	display: flex;
+	flex-flow: row wrap;
+}

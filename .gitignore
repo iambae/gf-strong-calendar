@@ -1,0 +1,10 @@
+.idea/
+.DS_STORE
+node_modules/
+cloud_sql_proxy
+server/config.json
+.vscode/
+app.yaml
+.prettierrc
+frontend/.eslintrc.js
+server/.eslintrc.js

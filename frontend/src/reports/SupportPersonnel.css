@@ -1,0 +1,50 @@
+.report-header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+	.report-header h4 {
+		font-size: 3vw !important;
+	}
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+	.report-header h4 {
+		font-size: 3vw !important;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+	.report-header h4 {
+		font-size: 3vw !important;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+	.report-header h4 {
+		font-size: 4vw !important;
+	}
+}
+
+.report-header h4 {
+	font-size: 2vw;
+	line-height: inherit;
+	white-space: nowrap;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Roboto", "Helvetica Neue", "Arial", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0;
+}
+
+.report-table {
+	padding-top: 10px;
+	padding-left: 15px;
+}

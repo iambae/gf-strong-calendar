@@ -1,0 +1,57 @@
+[
+    {
+        "permission_id": 1,
+        "permission_name": "Admin Calendar",
+        "permission_key": "adminCalendar"
+    },
+    {
+        "permission_id": 2,
+        "permission_name": "Patient Information",
+        "permission_key": "patient"
+    },
+    {
+        "permission_id": 3,
+        "permission_name": "Therapist Information",
+        "permission_key": "therapist"
+    },
+    {
+        "permission_id": 4,
+        "permission_name": "User Profile Information",
+        "permission_key": "user"
+    },
+    {
+        "permission_id": 5,
+        "permission_name": "Clerk Information",
+        "permission_key": "clerk"
+    },
+    {
+        "permission_id": 6,
+        "permission_name": "User Table",
+        "permission_key": "user"
+    },
+    {
+        "permission_id": 7,
+        "permission_name": "Reporting",
+        "permission_key": "report"
+    },
+    {
+        "permission_id": 8,
+        "permission_name": "User Profile",
+        "permission_key": "profile"
+    },
+    {
+        "permission_id": 9,
+        "permission_name": "Appointments",
+        "permission_key": "appointments"
+    },
+    {
+        "permission_id": 10,
+        "permission_name": "Patient Calendar",
+        "permission_key": "patientCalendar"
+    },
+    {
+        "permission_id": 11,
+        "permission_name": "Therapist Calendar",
+        "permission_key": "therapistCalendar"
+    }
+]

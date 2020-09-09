@@ -1,0 +1,14 @@
+[
+    {
+        "user_role_id": 1,
+        "user_role_name": "patient"
+    },
+    {
+        "user_role_id": 2,
+        "user_role_name": "therapist"
+    },
+    {
+        "user_role_id": 3,
+        "user_role_name": "clerk"
+    }
+]

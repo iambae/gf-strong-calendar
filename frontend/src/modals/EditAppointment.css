@@ -1,0 +1,28 @@
+.modal-content {
+    overflow: visible;
+    border-radius: 10px;
+}
+
+.select-type {
+    z-index: 40;
+}
+
+.select-therapist {
+    z-index: 39;
+}
+
+.select-patient {
+    z-index: 38;
+}
+
+.select-location {
+    z-index: 37;
+}
+
+.select-start {
+    z-index: 36;
+}
+
+.select-end {
+    z-index: 35;
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "patient_id": 1,
+        "patient_number": "AB&6EF"
+    },
+    {
+        "patient_id": 2,
+        "patient_number": "AB96EF"
+    },
+    {
+        "patient_id": 3,
+        "patient_number": "AB96EGF"
+    },
+    {
+        "patient_id": 4,
+        "patient_number": "DB96EGF"
+    },
+    {
+        "patient_id": 5,
+        "patient_number": "FB96EGF"
+    }
+]

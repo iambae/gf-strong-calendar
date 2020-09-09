@@ -1,0 +1,22 @@
+[
+    {
+        "location_id": 1,
+        "location": "ROOM 121",
+        "address": "Floor 1"
+    },
+    {
+        "location_id": 2,
+        "location": "ROOM 122",
+        "address": "Floor 1"
+    },
+    {
+        "location_id": 3,
+        "location": "ROOM 201",
+        "address": "Floor 2"
+    },
+    {
+        "location_id": 4,
+        "location": "ROOM 202",
+        "address": "Floor 2"
+    }
+]

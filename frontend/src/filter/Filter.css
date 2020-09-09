@@ -1,0 +1,86 @@
+Control {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+div.rbc-toolbar > * {
+	margin: 10px 0;
+}
+
+div.rbc-toolbar {
+	justify-content: flex-start;
+}
+
+.navbar-brand {
+	margin: 0.5em !important;
+}
+
+.filter-container {
+	min-height: 100px;
+}
+
+.filters > * {
+	margin: 10px 0;
+}
+
+.filterbar {
+	display: flex;
+	flex-grow: 1;
+	flex-flow: wrap;
+	margin-bottom: 0;
+}
+
+.search-by {
+	flex-grow: 1;
+}
+
+.filter-selection {
+	width: 123px;
+	margin: 10px;
+}
+
+.select-field {
+	position: absolute;
+	z-index: 29;
+	flex-grow: 2;
+	margin: 10px;
+}
+
+.datepicker-field {
+	flex-grow: 2;
+	margin: 10px;
+	height: 38px;
+	margin-top: -2px;
+}
+
+.react-datepicker__input-container {
+	display: flex !important;
+}
+
+.react-datepicker-wrapper {
+	flex-grow: 2;
+	margin: 10px;
+	height: 38px;
+	width: max-content;
+}
+
+.datepicker-popper {
+	position: absolute;
+	z-index: 29;
+}
+
+.select-date {
+	width: 200px;
+}
+
+.filter-tags {
+	display: flex;
+	flex-grow: 1;
+	margin-bottom: 10px 0;
+	margin-top: -7px;
+}
+
+.tags {
+	margin: 5px;
+}

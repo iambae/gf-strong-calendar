@@ -1,0 +1,22 @@
+[
+    {
+        "therapist_id": 6,
+        "type_id": 1
+    },
+    {
+        "therapist_id": 6,
+        "type_id": 2
+    },
+    {
+        "therapist_id": 7,
+        "type_id": 1
+    },
+    {
+        "therapist_id": 8,
+        "type_id": 2
+    },
+    {
+        "therapist_id": 9,
+        "type_id": 3
+    }
+]

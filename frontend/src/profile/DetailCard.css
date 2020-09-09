@@ -1,0 +1,53 @@
+span#title {
+	display: inline-block;
+	padding-top: 0.3125rem;
+	padding-bottom: 0.3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Roboto", "Helvetica Neue", "Arial", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0;
+}
+
+#profile-form label.form-label,
+div.input-section.form-group label.form-label {
+	color: #454b52 !important;
+}
+
+.detail-card-header {
+	text-align: center;
+}
+
+div.detail-card > div {
+	flex-grow: 1;
+	display: flex;
+	align-items: stretch;
+	flex-direction: column;
+}
+
+.detail-card {
+	border: 0 !important;
+	flex-grow: 1;
+	display: flex;
+	align-items: stretch;
+	flex-direction: column;
+	/* background-color: rgba(250, 250, 250, 0.8) !important; */
+}
+
+div.card div.content {
+	/* background-color: rgba(255, 255, 255, 0.5) !important; */
+}
+
+.card-header {
+	border: 0 !important;
+	/* background-color: rgba(250, 250, 250, 0.8) !important; */
+}
+
+.card-header:first-child {
+	border-radius: inherit !important;
+}
