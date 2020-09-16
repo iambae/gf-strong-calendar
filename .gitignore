@@ -8,3 +8,4 @@ app.yaml
 .prettierrc
 frontend/.eslintrc.js
 server/.eslintrc.js
+docs/
